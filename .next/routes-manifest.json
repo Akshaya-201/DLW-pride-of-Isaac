@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/audio-violence-detect",
+      "regex": "^/api/audio\\-violence\\-detect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/audio\\-violence\\-detect(?:/)?$"
+    },
+    {
+      "page": "/api/emergency-dispatch",
+      "regex": "^/api/emergency\\-dispatch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/emergency\\-dispatch(?:/)?$"
+    },
+    {
+      "page": "/api/sendSMS",
+      "regex": "^/api/sendSMS(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sendSMS(?:/)?$"
+    },
+    {
+      "page": "/api/violence-detect",
+      "regex": "^/api/violence\\-detect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/violence\\-detect(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/monitor",
+      "regex": "^/monitor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/monitor(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

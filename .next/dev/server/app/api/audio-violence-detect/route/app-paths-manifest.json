@@ -1,0 +1,3 @@
+{
+  "/api/audio-violence-detect/route": "app/api/audio-violence-detect/route.js"
+}

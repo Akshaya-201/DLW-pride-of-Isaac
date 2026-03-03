@@ -1,0 +1,3 @@
+{
+  "/api/sendSMS/route": "app/api/sendSMS/route.js"
+}

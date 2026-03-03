@@ -1,0 +1,3 @@
+module.exports=[4047,a=>{a.v({className:"inter_396b12ce-module__rRjk0G__className"})},29735,a=>{"use strict";var b=a.i(7997),c=a.i(4047);let d={className:c.default.className,style:{fontFamily:"'Inter', 'Inter Fallback'",fontStyle:"normal"}};function e({children:a}){return(0,b.jsxs)("html",{lang:"en",children:[(0,b.jsx)("head",{children:(0,b.jsx)("link",{rel:"stylesheet",href:"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"})}),(0,b.jsx)("body",{className:d.className,children:a})]})}null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",()=>e,"metadata",0,{title:"SOS App",description:"Made by Thabhelo, Ebuka and Tomar"}],29735)}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__1201bdc7._.js.map

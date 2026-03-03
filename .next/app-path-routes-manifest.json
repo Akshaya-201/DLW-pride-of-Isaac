@@ -1,0 +1,11 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/audio-violence-detect/route": "/api/audio-violence-detect",
+  "/api/emergency-dispatch/route": "/api/emergency-dispatch",
+  "/api/sendSMS/route": "/api/sendSMS",
+  "/api/violence-detect/route": "/api/violence-detect",
+  "/login/page": "/login",
+  "/monitor/page": "/monitor",
+  "/page": "/"
+}
