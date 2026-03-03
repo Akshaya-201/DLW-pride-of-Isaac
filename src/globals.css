@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-white: #ffffff;
+  --color-navy: #0b1f3a;
+  --color-ivory: #fff8eb;
+  --color-crimson: #c1121f;
+  --color-orange: #ff7a00;
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-navy);
+}
