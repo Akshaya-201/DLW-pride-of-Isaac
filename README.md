@@ -1,4 +1,5 @@
 # SOS Emergency App
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fb962477-75d8-4597-b4cc-c20f21de3d0a" />
 
 
 <p align="center">
@@ -68,10 +69,11 @@ To install the SOS Emergency App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Thabhelo/sos.git
+   git clone https://github.com/Akshaya-201/DLW-pride-of-Isaac
+   
 2. Navigate to the project directory:
 ```bash
-  cd sos
+  cd DLW-pride-of-Isaac
 ```
 3. Install the necessary dependencies:
 ```bash
@@ -87,31 +89,6 @@ To install the SOS Emergency App locally, follow these steps:
 
 
 ## Usage
-1. Launch the app on your mobile device.
-2. Set up your profile and add emergency contacts in the "My Circle" section.
-3. Customize your settings to tailor the app to your needs.
-4. Use the one-tap activation feature in case of an emergency.
+1. Launch the app from your terminal
+2. Set up your profile and add emergency contacts
 
-## Contributing
-Contributions are welcome! Please follow these steps to contribute to the SOS Emergency App:
-
-1. Fork the repository.
-2. Create a new branch for your feature or fix:
-```bash
-git checkout -b feature/YourFeature
-```
-3. Commit your changes:
-```bash
-git commit -m "Add Your Feature"
-```
-4. Push to the branch:
-```bash
-git push origin feature/YourFeature
-```
-5. Open a Pull Request.
-   
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-For any inquiries or support, please contact the team at chiebukaonyejesi@gmail.com or thabheloduve@gmail.com or tomermnahum@gmail.com
